@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     let message = "hello"
+    @IBOutlet weak var messageLabel:UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
